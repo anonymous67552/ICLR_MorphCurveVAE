@@ -38,13 +38,13 @@ To run the notebook on the dataset of interest:
 
 source_data/
 
-├── crop_seg/
+├ ── crop_seg/
 
-│   ├── <image_name_1>.tif
+│   ├ ── <image_name_1>.tif
 
-│   ├── ...
+│   ├ ── ...
 
-├── metadata.csv
+├ ── metadata.csv
 
 Once the files are placed in the `source_data/` directory as shown above, the notebook should run without modification.
 
