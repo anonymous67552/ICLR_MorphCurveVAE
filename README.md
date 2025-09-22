@@ -1,4 +1,4 @@
-# ICLR_MorphCurveVAE
+# MorphCurveVAE
 
 A 2-stage pipeline to construct continuous morphological trajectories from collections of static, segmented 3D images -- specifically applied to a mitotic cell image dataset (Allen Institute WTC-11).
 
