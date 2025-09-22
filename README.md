@@ -54,3 +54,9 @@ If you use this code or data in your research, **please cite the original datase
 
 Additionally, cite this repository for the processing pipeline and analysis code.
 
+---
+
+## Environment Setup
+
+This repository includes a `requirements.txt` file listing the Python packages needed.  
+We recommend creating a fresh virtual environment.
