@@ -21,8 +21,6 @@ Only the following parts of the full dataset are required to reproduce the resul
 - `crop_seg/` — a folder of segmented 3D image crops
 - `metadata.csv` — associated metadata for each image
 
-These files are **restructured** into a format compatible with this pipeline, but **no changes were made to the image content or labels**.
-
 ---
 
 ## Data Access Instructions
@@ -48,6 +46,13 @@ Once the files are placed in the `source_data/` directory as shown above, the no
 
 ---
 
+## Environment Setup
+
+This repository includes a `requirements.txt` file listing the Python packages needed.  
+We recommend creating a fresh virtual environment.
+
+---
+
 ## Citation and Attribution
 
 If you use this code or data in your research, **please cite the original dataset authors**:
@@ -55,10 +60,3 @@ If you use this code or data in your research, **please cite the original datase
 > Allen Institute for Cell Science. (2020). *Mitotic Cell Annotations (v0.1.1)* [Data set]. Quilt Data. https://open.quiltdata.com/b/allencell/packages/aics/mitotic_annotation
 
 Additionally, cite this repository for the processing pipeline and analysis code.
-
----
-
-## Environment Setup
-
-This repository includes a `requirements.txt` file listing the Python packages needed.  
-We recommend creating a fresh virtual environment.
