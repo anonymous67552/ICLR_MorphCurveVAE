@@ -42,7 +42,7 @@ source_data/
 └── metadata.csv
 ```
 
-Once the files are placed in the `source_data/` directory as shown above, the notebook should run without modification.
+Once the files are placed in the `source_data/` directory as shown above, the notebook should run without modification. Note that much of the pipeline requires intermediate data from previous sections, thus it is highly recommended to run the pipeline sequentially from top to bottom.
 
 ---
 
